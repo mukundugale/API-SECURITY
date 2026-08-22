@@ -12,13 +12,13 @@ Each finding includes vulnerability analysis, the affected security concept, imp
 
 ## Findings
 
-| # | Vulnerability                                                                  |   Status  |   |
-| - | ------------------------------------------------------------------------------ | --------- | - |
-| 1 | JWT None Algorithm Attack                                                      | Completed |   |
-| 2 | Mass Assignment                                                                | Planned   |   |
-| 3 | Excessive Data Exposure                                                        | Planned   |   |
-| 4 | Broken Object Level Authorization (BOLA)                                       | Planned   |   |
-| 5 | API Security Misconfiguration                                                  | Planned   |   |
+| # | Vulnerability                                                                  |   Status  |  
+| - | ------------------------------------------------------------------------------ | --------- | 
+| 1 | JWT None Algorithm Attack                                                      | Completed |   
+| 2 | Mass Assignment                                                                | Planned   |   
+| 3 | JWT Algorithm Confusion Attack                                                 | Completed |   
+| 4 | Broken Object Level Authorization (BOLA)                                       | Planned   |   
+| 5 | API Security Misconfiguration                                                  | Planned   |   
 
 ---
 
@@ -38,7 +38,7 @@ API-SECURITY/
 │   ├── README.md
 │   └── screenshots/
 │
-├── Excessive-Data-Exposure/
+├── JWT-Algorithm-Confusion-Attack/
 │   ├── README.md
 │   └── screenshots/
 │
@@ -75,7 +75,7 @@ This repository currently focuses on:
 * JWT Security
 * Broken Object Level Authorization (BOLA)
 * Mass Assignment
-* Excessive Data Exposure
+* JWT Algorithm confusion attack
 * API Security Misconfiguration
 * API Token and Authentication Attacks
 
