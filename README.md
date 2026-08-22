@@ -32,23 +32,24 @@ API-SECURITY/
 ├── JWT-None-Algorithm-Attack/
 │   ├── README.md
 │   ├── report.pdf
-│   └── screenshots/
+│   
 │
 ├── Mass-Assignment/
 │   ├── README.md
-│   └── screenshots/
+│   └── Report.pdf
 │
 ├── JWT-Algorithm-Confusion-Attack/
 │   ├── README.md
-│   └── screenshots/
+|   └── Report.pdf
+│   
 │
 ├── BOLA/
 │   ├── README.md
-│   └── screenshots/
+│   └── Report.pdf
 │
 └── Security-Misconfiguration/
     ├── README.md
-    └── screenshots/
+    └── Report.pdf
 ```
 
 ---
