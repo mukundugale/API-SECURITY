@@ -34,7 +34,7 @@ API-SECURITY/
 │   ├── report.pdf
 │   
 │
-├── Mass-Assignment/
+├── Business-Logic-Vulnerability/
 │   ├── README.md
 │   └── Report.pdf
 │
@@ -75,7 +75,7 @@ This repository currently focuses on:
 * API Authentication and Authorization
 * JWT Security
 * Broken Object Level Authorization (BOLA)
-* Mass Assignment
+* Business Logic Vulnerability
 * JWT Algorithm confusion attack
 * API Security Misconfiguration
 * API Token and Authentication Attacks
@@ -98,7 +98,6 @@ The findings in this repository are documented from authorized security labs and
 Each vulnerability folder may contain:
 
 * `README.md` — Detailed explanation of the vulnerability
-* `screenshots/` — Sanitized proof-of-concept screenshots
 * `report.pdf` — Additional lab documentation, when available
 
 Sensitive information, credentials, tokens, and personal data are removed or blurred before publication.
