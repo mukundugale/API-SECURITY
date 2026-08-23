@@ -15,7 +15,7 @@ Each finding includes vulnerability analysis, the affected security concept, imp
 | # | Vulnerability                                                                  |   Status  |  
 | - | ------------------------------------------------------------------------------ | --------- | 
 | 1 | JWT None Algorithm Attack                                                      | Completed |   
-| 2 | Mass Assignment                                                                | Planned   |   
+| 2 | Business Logic Vulnerability                                                   | Completed |   
 | 3 | JWT Algorithm Confusion Attack                                                 | Completed |   
 | 4 | Broken Object Level Authorization (BOLA)                                       | Planned   |   
 | 5 | API Security Misconfiguration                                                  | Planned   |   
