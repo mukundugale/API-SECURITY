@@ -84,6 +84,8 @@ Victim JWT → Attacker JWT
 Function:
 user → admin
 
+---
+
 🧠 Root Cause
 
 The vulnerability appears to occur because the API does not properly enforce function-level authorization on the server side.
@@ -92,6 +94,7 @@ Authentication verifies the identity of the user, but the application failed to 
 
 Sensitive functions must always be protected by server-side authorization checks.
 
+---
 
 ⚠️ Security Impact
 
@@ -105,20 +108,21 @@ Perform privilege escalation.
 Potentially modify balances or user roles.
 
 These impacts can result in data loss, unauthorized access, and significant business impact
-
+---
 Remediation :
 –	Implement server-side role verification on all admin endpoints
 –	Use attribute-based access control (ABAC) or role-based access  control (RBAC) checks in middleware
 –	Never rely on URL path obscurity as an authorization mechanism
 –	Apply the principle of least privilege via middleware
 
+---
 
 🛠️ Tools Used
 Burp Suite – API interception and request manipulation
 crAPI – Deliberately vulnerable API security lab
 JWT – Authentication token tested during the assessment
 
-
+---
 📚 References
 OWASP API Top 10 – API5:2023 Broken Function Level Authorization
 OWASP crAPI – Challenge 7
