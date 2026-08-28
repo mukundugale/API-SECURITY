@@ -18,7 +18,7 @@ Each finding includes vulnerability analysis, the affected security concept, imp
 | 2 | Business Logic Vulnerability                                                   | Completed |   
 | 3 | JWT Algorithm Confusion Attack                                                 | Completed |   
 | 4 | Broken Object Level Authorization (BOLA)                                       | Completed |   
-| 5 | Broken Function Level Authorization (BFLA)                                     | Planned   |   
+| 5 | Broken Function Level Authorization (BFLA)                                     | Completed |   
 
 ---
 
