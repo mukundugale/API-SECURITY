@@ -18,7 +18,8 @@ Each finding includes vulnerability analysis, the affected security concept, imp
 | 2 | Business Logic Vulnerability                                                   | Completed |   
 | 3 | JWT Algorithm Confusion Attack                                                 | Completed |   
 | 4 | Broken Object Level Authorization (BOLA)                                       | Completed |   
-| 5 | Broken Function Level Authorization (BFLA)                                     | Completed |   
+| 5 | Broken Function Level Authorization (BFLA)                                     | Completed |
+| 6 | Broken Object Property Level Authorization (BOPLA)                             | Completed | 
 
 ---
 
@@ -48,6 +49,10 @@ API-SECURITY/
 │   └── Report.pdf
 │
 └── BFLA/
+│    ├── README.md
+│    └── Report.pdf
+│
+└── BOPLA/
     ├── README.md
     └── Report.pdf
 ```
@@ -79,6 +84,7 @@ This repository currently focuses on:
 * JWT Algorithm confusion attack
 * Broken Function Level Authorizatioon
 * API Token and Authentication Attacks
+* Broken Object Property Level Authorization (BOPLA)
 
 More findings will be added as I continue learning and practicing API security.
 
